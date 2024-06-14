@@ -8,9 +8,13 @@ p {
 
 h1 {
     color: aquamarine;
+    text-align: center;
 }
 
 .radio{
     color: blue;  
     justify-content: center;
+}
+section {
+  text-align: center;
 }
