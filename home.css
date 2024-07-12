@@ -1,13 +1,13 @@
 p {
   justify-content: center;
+  align-items: center;
   color: blue;
   text-transform: uppercase;
-  border-radius: 0lvh;
   text-align: center;
 }
 
 h1 {
-    color: aquamarine;
+    color: orangered;
     text-align: center;
 }
 
@@ -18,3 +18,30 @@ h1 {
 section {
   text-align: center;
 }
+
+h2 {
+  justify-content: center;
+  text-align: center;
+  color: brown;
+  align-content: center;
+}
+
+h3 {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-transform: uppercase;
+}
+
+ul {
+  color :chocolate;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+a {
+  justify-content: center;
+  align-content: center;
+}
+

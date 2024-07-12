@@ -1,83 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-        <link rel="stylesheet" href="urelle.css">
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-        <title>ENSITECH</title>
-    </head> 
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Gestion ecole</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Presentation</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Settings</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Contacts
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Etudiants</a></li>
-                      <li><a class="dropdown-item" href="#">Cours</a></li>
-                      <li><hr class="dropdown-divider">Documentation</li>
-                      <li><a class="dropdown-item" href="#">Enseignants</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Recherche cours" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Rechercher</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <section>
+    <link rel="stylesheet" href="home.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <title>ENSITECH</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">BIENVENUE CHEZ ENSITECK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">Alternance</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contacts</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html">Informations</a>
+            </li>
+            <li>
+              <a
+                href="formation.html"
+                role="button"
+              >
+                Formations
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Recherche cours"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit" onclick="alert('pas de base de donnees de cours')">
+              Rechercher
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  
+    <section>
+       <img src="images/ensitechlogo.png" class="card-img-top" alt="logo" width="450px", >
+      <p>
+        Notre plateforme ENSITECH permet au enseignants et au directeurs de
+        faire plusieurs taches liees aux etudiants.
+      </p>
 
-            <div class="card" style="width: 180rem;">
-                <!-- <img src="" class="card-img-top" alt=""> -->
-                <div class="card-body">
-                  <h5 class="card-title">ENSITECH</h5>
-                  <p class="card-text">Bienvenue sur notre logiciel de gestion d'etablissement scolaire</p>
-                  <a href="test.html" class="btn btn-primary">Decouvrir notre solution ENSITECH</a>
-                </div>
-              </div>           
-        </section>
-        <section>
-            <h1>Presentation</h1> 
-            <p>Notre plateforme ENSITECH permet au enseignants et au directeurs de faire plusieurs
-              taches liees aux etudiants.
-            </p>  
-
-            <h2>Objectifs de la plateforme est de :</h2>
-            <ol>
-              <ul>Lister les etudiants inscrits</ul>
-              <ul>Associer cours a un etudiant</ul>
-              <ul>Ajouter un ou plusieurs etudiants a la plateforme </ul>
-              <ul>Supprimer un ou plusieurs etudiants</ul>
-              <ul>Lire les informations et les details des etudiants</ul>
-            </ol>
-        </section>
-
-        <section>
-          <p>Grace a cette plateforme vous aurez une vue d'enssemble sur la gestion de votre etablissement .</p>
-        </section>
-                                                
-    </body>
-    <footer>
-        <h3>Copiright by fallOmar Ingenieur IT 2024</h3>
-    </footer>
+    <section>
+      <p>
+        Grace a cette plateforme vous aurez une vue d'enssemble sur la gestion
+        de votre etablissement et de suivre les etudiants.
+      </p>
+      <br/>
+      
+    </section>
+  </body>
+  <footer>
+         <p>Site en cours de developpement ...</p>
+         <a href="test.html" class="btn btn-primary">solution ENSITECK</a>
+  </footer>
 </html>
